@@ -15,3 +15,24 @@
  */
 
  @import "bulma";
+
+ .navbar-brand .title{
+     color: white;
+ }
+
+ //round imgs
+
+ .image{
+     border-radius: 50%;
+     img{
+         border-radius:50%;
+     }
+ }
+
+ .notification:not(:last-child){
+    margin-bottom:0;
+}
+
+ .notifications:not(:last-child){
+     margin-bottom:0;
+ }
